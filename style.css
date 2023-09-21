@@ -7,6 +7,18 @@
   /* background-color: #d5ebff; */
 }
 
+.container-about {
+  padding: 1rem;
+  margin: auto;
+  width: 75%;
+  flex: 1;
+  background: white;
+  border-radius: 1rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: justify;
+}
+
 #projects {
   background-color: #d5ebff;
 }
@@ -14,3 +26,60 @@
 section {
   padding-top: 5rem;
 }
+
+.skill-sub-title {
+  color: rgb(85, 85, 85);
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-bottom: 2rem;
+}
+
+.skill-details-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.skill-container {
+  gap: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+
+.skill-container,
+.detail-container {
+  display: flex;
+}
+
+.detail-container {
+  padding: 1.5rem;
+  margin: 0 auto;
+  flex: 1;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  border-radius: 1rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: center;
+}
+
+.article-container {
+  display: flex;
+  text-align: initial;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 2.5rem;
+  justify-content: space-around;
+}
+/* .social-links {
+  height: 90px;
+  width: 90;
+  margin: 0 20px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+} */
